@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Majesti-Banner Bold";
+  src: url("./Majesti-Banner-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti-Banner Book";
+  src: url("./Majesti-Banner-Book.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti-Banner Book Italic";
+  src: url("./Majesti-Banner-BookItalic.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti-Banner Heavy";
+  src: url("./Majesti-Banner-Heavy.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti-Banner Light";
+  src: url("./Majesti-Banner-Light.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti-Banner Medium";
+  src: url("./Majesti-Banner-Medium.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Color Palette: */
+/* #be1e2d; fire */
+/* #8a8c8f; cooldown */
+/* #41393d; sleek */
+/* #ef4e22; spicy */
+/* #d4a18d; lucky */
+/* #d7e4c2; bamboo */
+
+
+body {
+  font-family: athelas, serif;
+  font-style: normal;
+  font-size: 16pt;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Majesti-Banner Heavy";
+  font-size: 40pt;
+}
+
+
+/* Navbar */
+
+.navbar {
+  background-color: #41393d;
+  margin-bottom: -6px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+li {
+  float: left;
+  padding: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+li a:hover {
+  background-color: #be1e2d;
+}
+
+.contact {
+  margin: 60px;
+  padding: 10px;
+}
+
+
+/* Home Page */
+
+.main-image-crop {
+  height: 700px;
+  overflow: hidden;
+}
+
+#main-image {
+  margin-top:-120px;
+  width: 100%;
+}
+
+.mission {
+  margin: 60px;
+  padding: 10px;
+}
+
+.entrees-background {
+  background-color: #be1e2d;
+}
+
+.entrees {
+  margin: 60px 60px 0px 60px;
+  padding: 10px;
+  color: white;
+}
+
+.menu-button {
+  padding: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.btn {
+  font-family: athelas, serif;
+  font-style: normal;
+  background-color: white;
+  color: #41393d;
+  padding: 14px 28px;
+  font-size: 20pt;
+  cursor: pointer;
+  border: 0;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: white;
+  /* border: 1px solid #8a8c8f; */
+  /* font-weight: bold; */
+  background-color: #d4a18d;
+}
+
+.entree-images {
+  /* padding-bottom: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  /* -ms-text-justify: distribute-all-lines; */
+  /* text-justify: distribute-all-lines; */
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+
+/* Menu Page */
+
+.menu {
+  margin: 60px;
+  padding: 10px;
+}
+
+.menu-table {
+  width: 100%;
+}
+
+  /* .menu-table td {
+    padding: 5px 0px 5px 0px;
+  } */
+
+
+/* About Page */
+
+.about-image {
+  padding: 20px;
+  text-align: center;
+  background-color: #d7e4c2;
+}
+
+.vision {
+  margin: 0px 60px 60px;
+  padding: 10px;
+}
+
+
+/* Footer */
+
+/* .footer-background {
+  background-color: #41393d;
+} */
+
+.footer {
+  /* background-color: #41393d; */
+  /* color: white; */
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
