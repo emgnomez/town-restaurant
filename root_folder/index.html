@@ -1,74 +1,141 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- This is the html tag. It represents the root of an HTML document. It is the container for all other HTML elements. -->
-<head> <!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
-  <meta charset="utf-8"> <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
-  <meta name="keywords" content="Town, TOWN, Chinese cuisine, food, restaurants, New York, fine dining, menu"> <!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
-  <meta name="description" content="TOWN provides the best in fine Chinese cuisine in New York area."> <!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
-  <meta name="author" content="Emily Gomez"> <!-- The author meta tag specifies who the author of this document is. -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
-  <title>TOWN</title> <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
-  <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css"> <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource.  -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- This is a link to the style.css stylesheet. It defines the relationship between the current document and external resource.  -->
-</head>
-
-<body> <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
-  <div class="navbar">
-    <img src="./images/town_logo_bw.png" alt="TOWN logo" width="300">
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./menu.html">Menu</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-  </div>
-  <div class="main-image-crop">
-    <img id="main-image" src="images/chicken.jpg" alt="Chinese orange chicken dish">
-  </div>
-  <div class="mission">
-    <h1>TOWN Mission</h1> <!-- This heading contains the Mission statement. It has predefined CSS associated with it that makes it larger. -->
-    <p> <!-- This paragraph tag contains a paragraph of text associated with TOWN's Mission. -->
-      To bring quality, style and the wish for good fortune to all of our
-      guests. <br> We provide a high-end experience through Chinese cuisine.
-    </p>
-  </div>
-  <div class="entrees-background">
-    <div class="entrees">
-      <h1>Featured Entrees</h1>
-      <div class="menu-button">
-        <a class="btn" href="./menu.html">View Our Menu</a>
-      </div>
-      <div class="entree-images">
-        <img id="image-left" src="images/noodles-with-chopsticks.jpg" alt="Chinese noodle dish" height="250">
-        <img id="image-center" src="images/dumplings.jpg" alt="Chinese dumplings steamy" height="250">
-        <img id="image-right" src="images/fish.jpg" alt="Chinese fish dish with sides" height="250">
-        <span class="stretch"></span>
+<html lang="en"><!-- This is the html tag. It represents the root of an HTML document. It is the container for all other HTML elements. -->
+  <head><!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
+    <meta charset="utf-8" ><!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
+    <meta
+      name="keywords"
+      content="Town, TOWN, Chinese cuisine, food,
+      restaurants, New York, fine dining, menu"
+    ><!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
+    <meta
+      name="description"
+      content="TOWN provides the best in fine Chinese
+      cuisine in New York area."
+    ><!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
+    <meta name="author" content="Emily Gomez" ><!-- The author meta tag specifies who the author of this document is. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" ><!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
+    <title>TOWN</title><!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
+    <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css" ><!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource.  -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" ><!-- This is a link to the style.css stylesheet. It defines the relationship between the current document and external resource.  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body><!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
+    <div class="hero-image">
+      <div class="navbar-background">
+        <div class="navbar">
+          <a href="./index.html"><img src="./images/town_logo.png" alt="TOWN logo" width="400" ></a>
+          <ul>
+            <li>
+              <a class="active" href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-background">
-    <div class="footer">
-        <p>2023, Emily Gomez</p>
+    <div class="mission-reservation-container">
+      <div class="mission">
+        <h1>TOWN Mission</h1><!-- This heading contains the Mission statement. It has predefined CSS associated with it that makes it larger. -->
+        <p><!-- This paragraph tag contains a paragraph of text associated with TOWN's Mission. -->
+          To bring quality, style and the wish for good fortune to all of our
+          guests.
+          <br >
+          We provide a high-end experience through Chinese cuisine.
+        </p>
+      </div>
+      <div class="vl"></div>
+      <div class="reservation">
+        <div class="reservation-content">
+          <div class="reservation-button">
+            <a class="reservation-btn" target="_blank" href="https://opentable.com/">Reservations</a>
+          </div>
+          <!-- <p>Call to make a reservation at <br><a href="tel:+1123456789">(111) 111-1111</a></p> -->
+        </div>
+      </div>
+      <div class="clear"></div>
     </div>
-  </div>
-  <!--<footer>
-    <p><small>&copy; 2023, Emily Gomez. All rights reserved.</small></p>
+    <div class="entrees-background">
+      <div class="entrees">
+        <h1>Featured Entrees</h1>
+        <div class="menu-button">
+          <a class="btn" href="./menu.html">View Menu</a>
+        </div>
+        <div class="entree-images">
+          <img
+            id="image-left"
+            src="images/noodles-with-chopsticks.jpg"
+            alt="Chinese noodle dish"
 
-    <p>Site last updated: <time datetime="2019-11-30">February 11, 2023</time></p>
-
-    <address>
-      TOWN Restaurant<br>
-      addy<br>
-      <a href="mailto:info@townrestaurant.com">townrestaurant@gmail.com</a><br>
-      <a href="tel:+1123456789">(111) 111-1111</a>
-    </address>
-
-    <ul>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./menu.html">Menu</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-
-    <p><small>This is a fictitious company created for school</small></p>
-  </footer>-->
-</body>
+          >
+          <img
+            id="image-center"
+            src="images/dumplings.jpg"
+            alt="Chinese dumplings steamy"
+          >
+          <img
+            id="image-right"
+            src="images/fish.jpg"
+            alt="Chinese fish dish with sides"
+          >
+          <span class="stretch"></span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-background">
+      <footer class="footer">
+        <div class="row">
+          <div class="column">
+            <!-- logo -->
+            <a href="./index.html"><img src="./images/town_logo_w.png" alt="TOWN logo white" width="150" ></a>
+             <!-- pages -->
+            <ul>
+              <li>
+                <a href="./about.html">About</a>
+              </li>
+              <li>
+                <a href="./menu.html">Menu</a>
+              </li>
+              <li>
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <!-- hours of operation and social media -->
+            <p>
+              Business Operation Hours:<br>
+              17:00 to 23:00<br>
+              Tuesday-Saturday<br>
+            </p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+          <div class="column">
+            <!-- address/contact info -->
+            <address>
+              TOWN Restaurant 
+              <br>
+              14 W 44th St, New York City, NY 10036
+              <br>
+              <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
+              <br>
+              <a href="tel:+12124861007 ">212-486-1007</a>
+            </address>
+          </div>
+        </div>
+        <p>
+          <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+          <!-- <small>This is a fictitious restaurant website created for a school project.</small> -->
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

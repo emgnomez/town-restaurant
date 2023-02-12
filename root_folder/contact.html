@@ -9,31 +9,40 @@
         <title>TOWN - Contact</title> <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
         <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css"> <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource.  -->
         <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- This is a link to the style.css stylesheet. It defines the relationship between the current document and external resource.  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
       <body> <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
         <div class="navbar">
-        <img src="./images/town_logo_bw.png" alt="TOWN logo" width="300">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
+            <a href="./index.html"><img src="./images/town_logo.png" alt="TOWN logo" width="400" ></a>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./menu.html">Menu</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a class="active" href="./contact.html">Contact</a></li>
+            </ul>
         </div>
         <div class="contact">
-            <h1>Contact TOWN</h1>
-                <p>
-                    Please reach out to us for feedback, reservations, etc.
-                </p>
-                <p>
-                    <b>Phone Number:</b> 212-486-1007
-                </p>
-                <p>
-                    <b>Email:</b> townrestaurant@gmail.com
-                </p>
-                <p>
-                    <b>Address:</b> 14 W 44th St, New York City, NY 10036
-                </p>
+            <h1>Contact Us</h1>
+            <p>
+                Please reach out to us for feedback, reservations, etc.
+            </p>
+            <p>
+                <b>Phone Number:</b> 212-486-1007
+            </p>
+            <p>
+                <b>Email:</b> townrestaurant@gmail.com
+            </p>
+            <p>
+                <b>Address:</b> 14 W 44th St, New York City, NY 10036
+            </p>
+            <p>
+                <b>Business Operation Hours:</b><br>
+                17:00 to 23:00<br>
+                Tuesday-Saturday<br>
+            </p>
+            
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </div>
 
         <!--<form action="success.html" method="get">
@@ -49,9 +58,52 @@
         </form>-->
 
         <div class="footer-background">
-            <div class="footer">
-                <p>2023, Emily Gomez</p>
-            </div>
-        </div>
+            <footer class="footer">
+              <div class="row">
+                <div class="column">
+                  <!-- logo -->
+                  <a href="./index.html"><img src="./images/town_logo_w.png" alt="TOWN logo white" width="150" ></a>
+                   <!-- pages -->
+                  <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./menu.html">Menu</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <!-- hours of operation and social media -->
+                  <p>
+                    Business Operation Hours:<br>
+                    17:00 to 23:00<br>
+                    Tuesday-Saturday<br>
+                  </p>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="column">
+                  <!-- address/contact info -->
+                  <address>
+                    TOWN Restaurant 
+                    <br>
+                    14 W 44th St, New York City, NY 10036
+                    <br>
+                    <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
+                    <br>
+                    <a href="tel:+12124861007 ">212-486-1007</a>
+                  </address>
+                </div>
+              </div>
+              <p>
+                <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+                <!-- <small>This is a fictitious restaurant website created for a school project.</small> -->
+              </p>
+            </footer>
+          </div>
     </body>
 </html>

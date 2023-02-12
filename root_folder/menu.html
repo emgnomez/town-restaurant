@@ -12,51 +12,143 @@
       </head>
     <body> <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
         <div class="navbar">
-        <img src="./images/town_logo_bw.png" alt="TOWN logo" width="300">
-        <ul>
+          <a href="./index.html"><img src="./images/town_logo.png" alt="TOWN logo" width="400" ></a>
+          <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
+            <li><a class="active" href="./menu.html">Menu</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
-        </ul>
+          </ul>
         </div>
         <div class="menu">
-            <h1>Menu</h1> 
-            <table class="menu-table">
-                <tr>
-                    <td><b>Orange Chicken</b></td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>Tender chicken glazed with our signature orange sauce that gives a sweet yet savory taste.</td>
-                    <td></td>
-                </tr>
-                <!-- next menu item -->
-                <tr>
-                    <td><b>Mapo Tofu</b></td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td>Bean curd served in a chili-and-bean-based sauce topped with minced meat of your choice: pork or beef.</td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <div class="entrees-background">
-            <div class="entrees">
-                <h1>Featured Entrees</h1>
-                <div class="entree-images">
-                    <img id="image-left" src="images/noodles-with-chopsticks.jpg" alt="Chinese noodle dish" height="250">
-                    <img id="image-center" src="images/dumplings.jpg" alt="Chinese dumplings steamy" height="250">
-                    <img id="image-right" src="images/fish.jpg" alt="Chinese fish dish with sides" height="250">
-                    <span class="stretch"></span>
+            <div class="row">
+                <div class="column">
+                    <h1 id="menu-header">Menu</h1>
+
+                    <hr>
+
+                    <h2>Appetizers</h2>
+
+                    <h3>Spring Rolls</h3>
+                    <p>Traditional Chinese Spring Rolls with shredded pork and vegetables <b>$12</b></p>
+
+                    <h3>Crab Rangoon</h3>
+                    <p>Wrapped in our homemade wonton, six crab rangoons filled with cream cheese, savory crab meat, and scallions <b>$12</b></p>
+                    
+
+                    <h3>Fried Tofu</h3>
+                    <p>Also known as Dou Pao, the  tofu is deep fried until its surface turns golden and its texture turns fluffy and airy <b>$10</b></p>
+
+                    <h3>Green Bean & Garlic</h3>
+                    <p>Fresh green beans tossed in our house garlic sauce <b>$8</b></p>
+
+                    <hr>
+                    
+                    <h2>Entrees</h2>
+                    
+                    <h3>Dim Sum</h3>
+                    <p>Pick a tea and choose up to three dishes below <b>$30</b> </p>
+
+                    <p><b>Tea:</b> Jasmine, Oolong, Chrysanthemum, Sau Mei, Bo Lei</p>
+                    <p><b>Soup dumplings - Xiaolong Bao:</b> Delicate items filled with hot broth and pork and are served in a bamboo steamer</p>
+                    <p><b>Roast Pork Buns - Char Siu Bao:</b> Fresh and fluffy white buns stuffed with sweet barbecue seasoned pork served in a bamboo steamer</p>
+                    <p><b>Shumai:</b> Filling of pork, shrimp, or a combination of the two — with bamboo shoots, black mushrooms, and water chestnuts</p>
+                    <p><b>Glutinous Rice Dumplings - Hahm Sui Gohk:</b> Deep fried dumplings</p>
+                    <p><b>Fried Sesame Balls - Djeen Dui:</b> Sweet sesame sprinkled deep fried balls</p>
+                    <p><b>Egg Tart - Dan Tat:</b> Sweet, rich, and custard filled flaky pastry tartlets</p>
+
+                    <h3>Orange Chicken</h3>
+                    <p>Tender chicken glazed with our signature orange sauce that gives a sweet yet savory taste <b>$20</b></p>
+                    
+                    <h3>Mapo Tofu</h3>
+                    <p>Bean curd served in a chili-and-bean-based sauce topped with minced meat of your choice: pork or beef <b>$18</b></p>
+                    
+                    <h3>Kung Pao Chicken</h3>
+                    <p>The dish is prepared by frying diced chicken and dry red pepper with golden peanuts <b>$20</b></p>
+
+                    <h3>Tomato Noodle Soup</h3>
+                    <p> Spicy tomato noodle soup with chili oil, Sichuan pepper, vegetables, and choice of pork, chicken, or tofu <b>$18</b></p>
+
+                    <h3>Fuqi Fei Pian</h3>
+                    <p>Thinly sliced beef seasoned with chili oil <b>$25</b></p>
+
+                    <h3>Dandan Noodles</h3>
+                    <p> The noodles are drenched in chili oil with vegetables, Sichuan pepper, and minced pork served on top <b>$22</b></p>
+
+                    <h3>Sichuan Hot Pot</h3>
+                    <p>The broth is flavored with chili peppers and other strong-tasting herbs and spices <b>$22</b></p>
+                </div>
+                <div id="food-images" class="column" >                   
+                    <img src="./images/dumplings.jpg" alt="Dim Sum Dumplings">
+                    <br>
+                    <small>Soup Dumplings</small>
+
+                    <img src="./images/chicken.jpg" alt="Orange Chicken">
+                    <br>
+                    <small>Orange Chicken</small>
+
+                    <img src="./images/noodles.jpg" alt="Tomato Noodle Sop">
+                    <br>
+                    <small>Tomato Noodle Soup</small>
+
+                    <img src="./images/fish.jpg" alt="Yangshuo Beer Fish">
+                    <br>
+                    <small>Yangshuo Beer Fish</small>
+
+                    <img src="./images/noodles-with-chopsticks.jpg" alt="Dandan Noodles">
+                    <br>
+                    <small>Dandan Noodles</small>
+
                 </div>
             </div>
         </div>
         <div class="footer-background">
-            <div class="footer">
-                <p>2023, Emily Gomez</p>
-            </div>
-        </div>
+            <footer class="footer">
+              <div class="row">
+                <div class="column">
+                  <!-- logo -->
+                  <a href="./index.html"><img src="./images/town_logo_w.png" alt="TOWN logo white" width="150" ></a>
+                   <!-- pages -->
+                  <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                      <a href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <!-- hours of operation and social media -->
+                  <p>
+                    Business Operation Hours:<br>
+                    17:00 to 23:00<br>
+                    Tuesday-Saturday<br>
+                  </p>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="column">
+                  <!-- address/contact info -->
+                  <address>
+                    TOWN Restaurant 
+                    <br>
+                    14 W 44th St, New York City, NY 10036
+                    <br>
+                    <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
+                    <br>
+                    <a href="tel:+12124861007 ">212-486-1007</a>
+                  </address>
+                </div>
+              </div>
+              <p>
+                <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+                <!-- <small>This is a fictitious restaurant website created for a school project.</small> -->
+              </p>
+            </footer>
+          </div>
     </body>
   </html>
