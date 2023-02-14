@@ -1,98 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> <!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
-        <meta charset="utf-8"> <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
-        <meta name="keywords" content="Town, TOWN, Chinese cuisine, food, restaurants, New York, fine dining, menu"> <!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
-        <meta name="description" content="TOWN provides the best in fine Chinese cuisine in New York area."> <!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
-        <meta name="author" content="Emily Gomez"> <!-- The author meta tag specifies who the author of this document is. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
-        <title>TOWN - About</title> <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
-        <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css"> <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource.  -->
-        <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- This is a link to the style.css stylesheet. It defines the relationship between the current document and external resource.  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head>
-    <body> <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
-        <div class="navbar">
-            <a href="./index.html"><img src="./images/town_logo.png" alt="TOWN logo" width="400" ></a>
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./menu.html">Menu</a></li>
-              <li><a class="active" href="./about.html">About</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-            </ul>
+
+<!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
+<head>
+  <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
+  <meta charset="utf-8">
+  <!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
+  <meta name="keywords"
+    content="Town, TOWN, Chinese cuisine, New York, fine dining, about, vision, experiential dining, quality, luxury, creativity">
+  <!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
+  <meta name="description" content="TOWN combines a variety of chinese cuisine to excite and delight our customers.">
+  <!-- The author meta tag specifies who the author of this document is. -->
+  <meta name="author" content="Emily Gomez">
+  <!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
+  <title>TOWN - About</title>
+  <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource. -->
+  <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css">
+  <!-- This is a link to the style.css stylesheet. -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- This is a link to the font awesome icons stylesheet. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
+<body>
+  <!-- Navigation bar and logo -->
+  <div class="navbar">
+    <a href="./index.html"><img src="./images/town-logo.png" alt="red and gray TOWN logo with Chinese characters"
+        width="400"></a>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li><a class="active" href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <!-- Chef image -->
+  <div class="about-image">
+    <img id="chef" src="./images/chef.jpg" width="500"
+      alt="chef stretching noodle dough in air in kitchen surrounded by pots">
+  </div>
+  <!-- Vision statement -->
+  <div class="vision">
+    <h1>Vision</h1>
+    <p>
+      <b>TOWN</b> combines a variety of chinese cuisine to excite and delight our
+      customers.
+    </p>
+    <p>
+      Our vision for the future is to create experiential dining that
+      is more than just a night out. We aim to bring quality and luxury across
+      all aspects of our brand.
+    </p>
+    <p>
+      The approach of <b>TOWN</b> is to develop our brand with the understanding of both our culture and consumer
+      insights. Within
+      our vision always lives the promise of inspiring creativity, conversation
+      and quality.
+    </p>
+    <p>
+      Our audience is a high-end clientele who values a dining
+      experience. The age range of our customers are from early 30s-60s. We
+      would like them to come back for both personal dining and events.
+    </p>
+  </div>F
+  <!-- Footer. It contains all the business's information, social links, pages, and business hours. -->
+  <div class="footer-background">
+    <footer class="footer">
+      <div class="row">
+        <div class="column">
+          <!-- logo -->
+          <a href="./index.html"><img src="./images/town-logo-white.png" alt="white TOWN logo with Chinese characters"
+              width="150"></a>
+          <!-- navigation pages -->
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="about-image">
-            <img id="chef" src="./images/chef.jpg" width="500" alt="chef making noodles">
+        <div class="column">
+          <!-- hours of operation -->
+          <p>
+            Business Operation Hours:<br>
+            17:00 to 23:00<br>
+            Tuesday-Saturday<br>
+          </p>
         </div>
-        <div class="vision">
-            <h1>Vision</h1><!-- This heading contains the Vision statement. -->
-            <p> <!-- This paragraph tag contains a paragraph of text associated with TOWN's Vision. -->
-                <b>TOWN</b> combines a variety of chinese cuisine to excite and delight our
-                customers.
-            </p>
-            <p>
-                Our vision for the future is to create experiential dining that
-                is more than just a night out. We aim to bring quality and luxury across
-                all aspects of our brand.
-            </p>
-            <p>
-                The approach of <b>TOWN</b> is to develop our brand with the understanding of both our culture and consumer insights. Within
-                our vision always lives the promise of inspiring creativity, conversation
-                and quality.
-            </p>
-            <p>
-                Our audience is a high-end clientele who values a dining
-                experience. The age range of our customers are from early 30s-60s. We
-                would like them to come back for both personal dining and events.
-            </p>
+        <div class="column">
+          <!-- address/contact info -->
+          <address>
+            TOWN Restaurant
+            <br>
+            14 W 44th St, New York City, NY 10036
+            <br>
+            <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
+            <br>
+            <a href="tel:+12124861007 ">212-486-1007</a>
+          </address>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
         </div>
-        <div class="footer-background">
-            <footer class="footer">
-              <div class="row">
-                <div class="column">
-                  <!-- logo -->
-                  <a href="./index.html"><img src="./images/town_logo_w.png" alt="TOWN logo white" width="150" ></a>
-                   <!-- pages -->
-                  <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="column">
-                  <!-- hours of operation and social media -->
-                  <p>
-                    Business Operation Hours:<br>
-                    17:00 to 23:00<br>
-                    Tuesday-Saturday<br>
-                  </p>
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-instagram"></a>
-                </div>
-                <div class="column">
-                  <!-- address/contact info -->
-                  <address>
-                    TOWN Restaurant 
-                    <br>
-                    14 W 44th St, New York City, NY 10036
-                    <br>
-                    <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
-                    <br>
-                    <a href="tel:+12124861007 ">212-486-1007</a>
-                  </address>
-                </div>
-              </div>
-              <p>
-                <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
-                <!-- <small>This is a fictitious restaurant website created for a school project.</small> -->
-              </p>
-            </footer>
-          </div>
-    </body>
+      </div>
+      <p>
+        <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+      </p>
+    </footer>
+  </div>
+</body>
+
 </html>

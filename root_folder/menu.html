@@ -1,155 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> <!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
-        <meta charset="utf-8"> <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
-        <meta name="keywords" content="Town, TOWN, Chinese cuisine, food, restaurants, New York, fine dining, menu"> <!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
-        <meta name="description" content="TOWN provides the best in fine Chinese cuisine in New York area."> <!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
-        <meta name="author" content="Emily Gomez"> <!-- The author meta tag specifies who the author of this document is. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
-        <title>TOWN - Menu</title> <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
-        <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css"> <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource.  -->
-        <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- This is a link to the style.css stylesheet. It defines the relationship between the current document and external resource.  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      </head>
-    <body> <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
-        <div class="navbar">
-          <a href="./index.html"><img src="./images/town_logo.png" alt="TOWN logo" width="400" ></a>
+
+<!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
+<head>
+  <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
+  <meta charset="utf-8">
+  <!-- The keywords meta tag specifies a comma-separated list of keywords that are relevant to the page and informs search engines what the page is about. -->
+  <meta name="keywords"
+    content="Town, TOWN, Chinese cuisine, New York, fine dining, menu, entrees, appetizers, dim sum, orange chicken, noodles">
+  <!-- The description meta tag specifies a description of the page. Search engines can pick up this description and show this page with the results of searches. -->
+  <meta name="description" content="The TOWN menu offers a curated selection of Chinese cuisine.">
+  <!-- The author meta tag specifies who the author of this document is. -->
+  <meta name="author" content="Emily Gomez">
+  <!-- The viewport meta tag controls the viewport (the user's visible area of a web page). This gives the browser instructions on how to control the page's dimension and scaling for mobile viewing and responsive websites. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This is the title. It defines the title of the document. It is shown in the browser's title bar or page's tab. -->
+  <title>TOWN - Menu</title>
+  <!-- This is a link to import the Athelas typeface. It defines the relationship between the current document and external resource. -->
+  <link rel="stylesheet" href="https://use.typekit.net/rcw6nye.css">
+  <!-- This is a link to the style.css stylesheet. -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- This is a link to the font awesome icons stylesheet. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
+<body>
+  <!-- Navigation bar and logo -->
+  <div class="navbar">
+    <a href="./index.html"><img src="./images/town-logo.png" alt="red and gray TOWN logo with Chinese characters"
+        width="400"></a>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a class="active" href="./menu.html">Menu</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <!-- Menu and food images -->
+  <div class="menu">
+    <div class="row">
+      <!-- Menu -->
+      <div class="column">
+        <h1 id="menu-header">Menu</h1>
+
+        <hr>
+
+        <!-- Appetizers section-->
+        <h2>Appetizers</h2>
+
+        <h3>Spring Rolls</h3>
+        <p>Traditional Chinese Spring Rolls with shredded pork and vegetables <b>$12</b></p>
+
+        <h3>Crab Rangoon</h3>
+        <p>Wrapped in our homemade wonton, six crab rangoons filled with cream cheese, savory crab meat, and scallions
+          <b>$12</b>
+        </p>
+
+        <h3>Fried Tofu</h3>
+        <p>Also known as Dou Pao, the tofu is deep fried until its surface turns golden and its texture turns fluffy and
+          airy <b>$10</b></p>
+
+        <h3>Green Bean & Garlic</h3>
+        <p>Fresh green beans tossed in our house garlic sauce <b>$8</b></p>
+
+        <hr>
+
+        <!-- Entrees section-->
+        <h2>Entrees</h2>
+
+        <h3>Dim Sum</h3>
+        <p>Pick a tea and choose up to three dishes below <b>$30</b> </p>
+
+        <p><b>Tea:</b> Jasmine, Oolong, Chrysanthemum, Sau Mei, Bo Lei</p>
+        <p><b>Soup dumplings - Xiaolong Bao:</b> Delicate items filled with hot broth and pork and are served in a
+          bamboo steamer</p>
+        <p><b>Roast Pork Buns - Char Siu Bao:</b> Fresh and fluffy white buns stuffed with sweet barbecue seasoned pork
+          served in a bamboo steamer</p>
+        <p><b>Shumai:</b> Filling of pork, shrimp, or a combination of the two — with bamboo shoots, black mushrooms,
+          and water chestnuts</p>
+        <p><b>Glutinous Rice Dumplings - Hahm Sui Gohk:</b> Deep fried dumplings</p>
+        <p><b>Fried Sesame Balls - Djeen Dui:</b> Sweet sesame sprinkled deep fried balls</p>
+        <p><b>Egg Tart - Dan Tat:</b> Sweet, rich, and custard filled flaky pastry tartlets</p>
+
+        <h3>Orange Chicken</h3>
+        <p>Tender chicken glazed with our signature orange sauce that gives a sweet yet savory taste <b>$20</b></p>
+
+        <h3>Mapo Tofu</h3>
+        <p>Bean curd served in a chili-and-bean-based sauce topped with minced meat of your choice: pork or beef
+          <b>$18</b>
+        </p>
+
+        <h3>Kung Pao Chicken</h3>
+        <p>The dish is prepared by frying diced chicken and dry red pepper with golden peanuts <b>$20</b></p>
+
+        <h3>Tomato Noodle Soup</h3>
+        <p> Spicy tomato noodle soup with chili oil, Sichuan pepper, vegetables, and choice of pork, chicken, or tofu
+          <b>$18</b>
+        </p>
+
+        <h3>Yangshuo Beer Fish</h3>
+        <p>Fish cooked and fried in tea oil then braised with top-grade beer <b>$25</b></p>
+
+        <h3>Dandan Noodles</h3>
+        <p> The noodles are drenched in chili oil with vegetables, Sichuan pepper, and minced pork served on top
+          <b>$22</b>
+        </p>
+
+        <h3>Sichuan Hot Pot</h3>
+        <p>The broth is flavored with chili peppers and other strong-tasting herbs and spices <b>$22</b></p>
+      </div>
+      <!-- Food images -->
+      <div id="food-images" class="column">
+        <img src="./images/dumplings.jpg"
+          alt="Dumplings in wood steamer basket and hand taking lid off allowing steam to come out">
+        <br>
+        <small>Soup Dumplings</small>
+
+        <img src="./images/orange-chicken.jpg"
+          alt="Bright bite-sized orange chicken on a layer of broccoli with orange slices garnish on a white plate and a side of rice">
+        <br>
+        <small>Orange Chicken</small>
+
+        <img src="./images/noodle-soup.jpg"
+          alt="Noodles, tofu, and fried chicken piece in red-yellow broth with green garnish">
+        <br>
+        <small>Tomato Noodle Soup</small>
+
+        <img src="./images/fish.jpg"
+          alt="Two whole fish in a black pot surrounded by peppers and liquid next to a plate of greens and a teapot">
+        <br>
+        <small>Yangshuo Beer Fish</small>
+
+        <img src="./images/noodles-with-chopsticks.jpg"
+          alt="Noodles with vegetables and green garnish on side on wooden plate with chopsticks">
+        <br>
+        <small>Dandan Noodles</small>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer. It contains all the business's information, social links, pages, and business hours. -->
+  <div class="footer-background">
+    <footer class="footer">
+      <div class="row">
+        <div class="column">
+          <!-- logo -->
+          <a href="./index.html"><img src="./images/town-logo-white.png" alt="white TOWN logo with Chinese characters"
+              width="150"></a>
+          <!-- navigation pages -->
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a class="active" href="./menu.html">Menu</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
           </ul>
         </div>
-        <div class="menu">
-            <div class="row">
-                <div class="column">
-                    <h1 id="menu-header">Menu</h1>
-
-                    <hr>
-
-                    <h2>Appetizers</h2>
-
-                    <h3>Spring Rolls</h3>
-                    <p>Traditional Chinese Spring Rolls with shredded pork and vegetables <b>$12</b></p>
-
-                    <h3>Crab Rangoon</h3>
-                    <p>Wrapped in our homemade wonton, six crab rangoons filled with cream cheese, savory crab meat, and scallions <b>$12</b></p>
-                    
-
-                    <h3>Fried Tofu</h3>
-                    <p>Also known as Dou Pao, the  tofu is deep fried until its surface turns golden and its texture turns fluffy and airy <b>$10</b></p>
-
-                    <h3>Green Bean & Garlic</h3>
-                    <p>Fresh green beans tossed in our house garlic sauce <b>$8</b></p>
-
-                    <hr>
-                    
-                    <h2>Entrees</h2>
-                    
-                    <h3>Dim Sum</h3>
-                    <p>Pick a tea and choose up to three dishes below <b>$30</b> </p>
-
-                    <p><b>Tea:</b> Jasmine, Oolong, Chrysanthemum, Sau Mei, Bo Lei</p>
-                    <p><b>Soup dumplings - Xiaolong Bao:</b> Delicate items filled with hot broth and pork and are served in a bamboo steamer</p>
-                    <p><b>Roast Pork Buns - Char Siu Bao:</b> Fresh and fluffy white buns stuffed with sweet barbecue seasoned pork served in a bamboo steamer</p>
-                    <p><b>Shumai:</b> Filling of pork, shrimp, or a combination of the two — with bamboo shoots, black mushrooms, and water chestnuts</p>
-                    <p><b>Glutinous Rice Dumplings - Hahm Sui Gohk:</b> Deep fried dumplings</p>
-                    <p><b>Fried Sesame Balls - Djeen Dui:</b> Sweet sesame sprinkled deep fried balls</p>
-                    <p><b>Egg Tart - Dan Tat:</b> Sweet, rich, and custard filled flaky pastry tartlets</p>
-
-                    <h3>Orange Chicken</h3>
-                    <p>Tender chicken glazed with our signature orange sauce that gives a sweet yet savory taste <b>$20</b></p>
-                    
-                    <h3>Mapo Tofu</h3>
-                    <p>Bean curd served in a chili-and-bean-based sauce topped with minced meat of your choice: pork or beef <b>$18</b></p>
-                    
-                    <h3>Kung Pao Chicken</h3>
-                    <p>The dish is prepared by frying diced chicken and dry red pepper with golden peanuts <b>$20</b></p>
-
-                    <h3>Tomato Noodle Soup</h3>
-                    <p> Spicy tomato noodle soup with chili oil, Sichuan pepper, vegetables, and choice of pork, chicken, or tofu <b>$18</b></p>
-
-                    <h3>Fuqi Fei Pian</h3>
-                    <p>Thinly sliced beef seasoned with chili oil <b>$25</b></p>
-
-                    <h3>Dandan Noodles</h3>
-                    <p> The noodles are drenched in chili oil with vegetables, Sichuan pepper, and minced pork served on top <b>$22</b></p>
-
-                    <h3>Sichuan Hot Pot</h3>
-                    <p>The broth is flavored with chili peppers and other strong-tasting herbs and spices <b>$22</b></p>
-                </div>
-                <div id="food-images" class="column" >                   
-                    <img src="./images/dumplings.jpg" alt="Dim Sum Dumplings">
-                    <br>
-                    <small>Soup Dumplings</small>
-
-                    <img src="./images/chicken.jpg" alt="Orange Chicken">
-                    <br>
-                    <small>Orange Chicken</small>
-
-                    <img src="./images/noodles.jpg" alt="Tomato Noodle Sop">
-                    <br>
-                    <small>Tomato Noodle Soup</small>
-
-                    <img src="./images/fish.jpg" alt="Yangshuo Beer Fish">
-                    <br>
-                    <small>Yangshuo Beer Fish</small>
-
-                    <img src="./images/noodles-with-chopsticks.jpg" alt="Dandan Noodles">
-                    <br>
-                    <small>Dandan Noodles</small>
-
-                </div>
-            </div>
+        <div class="column">
+          <!-- hours of operation -->
+          <p>
+            Business Operation Hours:<br>
+            17:00 to 23:00<br>
+            Tuesday-Saturday<br>
+          </p>
         </div>
-        <div class="footer-background">
-            <footer class="footer">
-              <div class="row">
-                <div class="column">
-                  <!-- logo -->
-                  <a href="./index.html"><img src="./images/town_logo_w.png" alt="TOWN logo white" width="150" ></a>
-                   <!-- pages -->
-                  <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="./about.html">About</a>
-                    </li>
-                    <li>
-                      <a href="./contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="column">
-                  <!-- hours of operation and social media -->
-                  <p>
-                    Business Operation Hours:<br>
-                    17:00 to 23:00<br>
-                    Tuesday-Saturday<br>
-                  </p>
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-instagram"></a>
-                </div>
-                <div class="column">
-                  <!-- address/contact info -->
-                  <address>
-                    TOWN Restaurant 
-                    <br>
-                    14 W 44th St, New York City, NY 10036
-                    <br>
-                    <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
-                    <br>
-                    <a href="tel:+12124861007 ">212-486-1007</a>
-                  </address>
-                </div>
-              </div>
-              <p>
-                <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
-                <!-- <small>This is a fictitious restaurant website created for a school project.</small> -->
-              </p>
-            </footer>
-          </div>
-    </body>
-  </html>
+        <div class="column">
+          <!-- address/contact info -->
+          <address>
+            TOWN Restaurant
+            <br>
+            14 W 44th St, New York City, NY 10036
+            <br>
+            <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
+            <br>
+            <a href="tel:+12124861007 ">212-486-1007</a>
+          </address>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <p>
+        <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
