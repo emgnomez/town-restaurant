@@ -75,7 +75,6 @@ h1 {
 .navbar-background {
   background-color: white;
   background: rgba(255, 255, 255, 0.9);
-  /* margin-bottom: -6px; */
 }
 
 .navbar ul {
@@ -112,8 +111,19 @@ h1 {
   text-underline-offset: 10px;
 }
 
-
 /* Home Page */
+
+/* Fade in image source - https://blog.hubspot.com/website/css-fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 .hero-image {
   background-image: url("../images/orange-chicken.jpg");
@@ -143,7 +153,7 @@ h1 {
 
 .vl {
   border-left: 4px solid #be1e2d;
-  height: 207px;    
+  height: 207px;
   /* 155px; */
   left: 50%;
   float: left;
@@ -231,15 +241,12 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  /* -ms-text-justify: distribute-all-lines; */
-  /* text-justify: distribute-all-lines; */
 }
 
 .entree-images img {
   height: 270px;
   max-height: 500px;
 }
-/* TODO: use row/column elements for resizing the height to keep them on one line */
 
 .stretch {
   width: 100%;
@@ -247,7 +254,6 @@ h1 {
   font-size: 0;
   line-height: 0;
 }
-
 
 /* Menu Page */
 
@@ -308,7 +314,6 @@ h1 {
   padding: 10px;
 }
 
-
 /* Contact Page */
 
 .contact {
@@ -316,8 +321,18 @@ h1 {
   padding: 10px;
 }
 
+#menu-header {
+  margin-top: 0;
+}
+
 .contact a {
   color: black;
+}
+
+#map iframe {
+  height: 400px;
+  width: 100%;
+  border: 0;
 }
 
 /* Footer */
@@ -396,4 +411,8 @@ footer .row:after {
 /* Instagram */
 .fa-instagram {
   color: white;
+}
+
+.blk {
+  color: black;
 }
