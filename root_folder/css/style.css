@@ -125,18 +125,6 @@ hr {
 
 /* Home Page */
 
-/* Fade in image source - https://blog.hubspot.com/website/css-fade-in */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
 .hero-image {
   background-image: url("../images/orange-chicken.jpg");
   height: 100vh;
