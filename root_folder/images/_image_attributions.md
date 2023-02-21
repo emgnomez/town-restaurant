@@ -17,6 +17,8 @@
 * **restaurant-red.jpg** - "Wine Glasses on Table Tops" by Chan Walrus is licensed under Pexels CC/license.
 
 * **restaurant-black.jpg** - "Tables And Chairs" by Adrien Olichon is licensed under Pexels CC/license.
+  
+* **favicon.ico** - "TOWN Logo no name" by SNHU.
 
 * **town-logo.png** - "TOWN Logo" by SNHU.
 
