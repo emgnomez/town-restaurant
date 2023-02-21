@@ -65,12 +65,24 @@ h1 {
   font-size: 40pt;
 }
 
-/* Navbar */
-
-.navbar {
-  /* background-color: white; */
-  /* margin-bottom: -6px; */
+.content {
+  margin: 60px;
+  padding: 10px;
 }
+
+.center {
+  text-align: center;
+}
+
+.blk {
+  color: black;
+}
+
+hr {
+  color: #8a8c8f;
+}
+
+/* Navbar */
 
 .navbar-background {
   background-color: white;
@@ -131,63 +143,40 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
-
-.info {
-  margin: 60px;
-  padding: 10px;
-}
-
-.mission-reservation-container {
-  margin: auto;
 }
 
 .mission {
-  margin: 60px;
   margin-top: 20px;
-  padding: 10px;
   float: left;
   max-width: 50%;
 }
 
 .vl {
   border-left: 4px solid #be1e2d;
-  height: 207px;
-  /* 155px; */
+  height: 185px;
   left: 50%;
   float: left;
 }
 
-.reservation {
-  text-align: center;
-}
-
-.reservation-content {
+.reservation-button {
   display: inline-block;
-  margin-top: 158px;
-  max-width: 50%;
-  justify-content: center;
+  margin-top: 135px;
   font-size: 20pt;
 }
 
-.reservation-btn {
-  font-family: athelas, serif;
-  font-style: normal;
-  /* background-color: #be1e2d; */
+.btn {
+  background-color: white;
   color: black;
   padding: 14px 28px;
   font-size: 20pt;
   cursor: pointer;
-  border: 0;
+  border: 4px solid #be1e2d;
   transition: 0.3s;
   text-decoration: none;
-  border: 4px solid #be1e2d;
 }
 
-.reservation-btn:hover {
+.btn:hover {
   color: white;
-  /* font-weight: bold; */
   background-color: #d4a18d;
 }
 
@@ -216,28 +205,7 @@ h1 {
   text-align: center;
 }
 
-.btn {
-  font-family: athelas, serif;
-  font-style: normal;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 20pt;
-  cursor: pointer;
-  border: 0;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-.btn:hover {
-  color: white;
-  /* border: 1px solid #8a8c8f; */
-  /* font-weight: bold; */
-  background-color: #d4a18d;
-}
-
 .entree-images {
-  /* padding-bottom: 50px; */
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -245,55 +213,39 @@ h1 {
 
 .entree-images img {
   height: 270px;
-  max-height: 500px;
 }
 
 .stretch {
   width: 100%;
   display: inline-block;
-  font-size: 0;
-  line-height: 0;
 }
 
 /* Menu Page */
 
-.menu {
-  margin: 60px;
-  padding: 10px;
-}
-
-#menu-header {
+#menu p, .reduce-top {
   margin-top: 0;
 }
 
-.menu p {
-  margin-top: 0;
-}
-
-.menu h3 {
+#menu h3 {
   margin-bottom: 10px;
   color: #be1e2d;
 }
 
-.menu .row .column {
+#menu .row .column, #contact .row .column {
   float: left;
   width: 50%;
 }
 
-.menu .row:after {
+#menu .row:after, #contact .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
 @media screen and (max-width: 600px) {
-  .menu .row .column {
+  #menu .row .column, #contact .row .column {
     width: 100%;
   }
-}
-
-#food-images {
-  text-align: center;
 }
 
 #food-images img {
@@ -303,36 +255,19 @@ h1 {
 
 /* About Page */
 
-.about-image {
+#about-image {
   padding: 20px;
   text-align: center;
-  background-color: #d7e4c2;
-}
-
-.vision {
-  margin: 0px 60px 60px;
-  padding: 10px;
+  /* background-color: #41393d; */
 }
 
 /* Contact Page */
 
-.contact {
-  margin: 60px;
-  padding: 10px;
-}
-
-#menu-header {
-  margin-top: 0;
-}
-
-.contact a {
-  color: black;
-}
-
 #map iframe {
   height: 400px;
-  width: 100%;
+  width: 95%;
   border: 0;
+  padding-left: 20px;
 }
 
 /* Footer */
@@ -341,13 +276,10 @@ h1 {
   background-color: #41393d;
   padding: 70px 70px 50px 70px;
   color: white;
-}
-
-.footer {
-  background-color: #41393d;
   text-align: left;
 }
 
+/* Three column footer: https://www.w3schools.com/howto/howto_css_three_columns.asp */
 footer .column {
   float: left;
   width: 33.33%;
@@ -397,22 +329,4 @@ footer .row:after {
   width: 50px;
   text-align: center;
   text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Facebook */
-.fa-facebook {
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  color: white;
-}
-
-.blk {
-  color: black;
 }

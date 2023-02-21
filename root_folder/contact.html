@@ -2,7 +2,6 @@
 <html lang="en">
 
 <!-- This is the head. It contains metadata information about the document that the viewer of the page does not need to know. -->
-
 <head>
   <!-- The charset meta tag specifies the character encoding for the HTML document. UTF-8 is encouraged to be used since it covers almost all of the characters and symbols in the world. -->
   <meta charset="utf-8">
@@ -26,7 +25,6 @@
 </head>
 
 <!-- This is the body. It contains all the contents of an HTML document, such as headings, paragraphs, images, and hyperlinks. There can only be one body. -->
-
 <body>
   <!-- Navigation bar and logo -->
   <div class="navbar">
@@ -40,11 +38,12 @@
     </ul>
   </div>
   <!-- Contact Us section -->
-  <div class="menu">
+  <div id="contact" class="content">
     <div class="row">
       <!-- Contact Us Info -->
       <div class="column">
-        <h1 id="menu-header">Contact Us</h1>
+        <h1 class="reduce-top">Contact Us</h1>
+        <hr>
         <p>
           Please reach out to us for feedback, reservations, etc.
         </p>
@@ -65,8 +64,8 @@
         <a href="#" class="fa fa-facebook blk"></a>
         <a href="#" class="fa fa-instagram blk"></a>
       </div>
+      <!-- Map -->
       <div class="column">
-        <!-- Map -->
         <div id="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3151179852707!2d-73.98336968549411!3d40.75509344291664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258ffe8a2882b%3A0xdf3fce32f5d5599!2s14%20W%2044th%20St%2C%20New%20York%2C%20NY%2010036!5e0!3m2!1sen!2sus!4v1676812259534!5m2!1sen!2sus"
@@ -100,28 +99,29 @@
         <div class="column">
           <!-- hours of operation -->
           <p>
-            Business Operation Hours:<br>
+            <b>Business Operation Hours:</b><br>
             17:00 to 23:00<br>
             Tuesday-Saturday<br>
           </p>
         </div>
         <div class="column">
           <!-- address/contact info -->
-          <address>
-            TOWN Restaurant
+          <p>
+            <b>TOWN Restaurant</b>
             <br>
             14 W 44th St, New York City, NY 10036
             <br>
             <a href="mailto:townrestaurant@gmail.com">townrestaurant@gmail.com</a>
             <br>
             <a href="tel:+12124861007 ">212-486-1007</a>
-          </address>
+          </p>
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-instagram"></a>
         </div>
       </div>
-      <p>
+      <p class="center">
         <small>&copy; 2023, Emily Gomez. All rights reserved.</small><br>
+        <!-- <small>This is a fictitious website developed for a school project.</small><br> -->
       </p>
     </footer>
   </div>
